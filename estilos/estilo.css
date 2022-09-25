@@ -67,13 +67,6 @@
     text-decoration: none;
 }
 
-.contenedor_integrantes{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
-}
 
 .contenedor_integrantes1{
     display: flex;
@@ -201,3 +194,46 @@ footer a:hover{
 footer a:hover{
     color: cornflowerblue
 }
+
+@media screen and (max-width: 576px) {
+    *{
+        margin: none;
+        padding: none;
+        box-sizing: border-box;
+       }
+
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    h2{
+        display: flex;
+        justify-content: center;
+    }
+
+    .post{
+        height: 300px;
+        height: 400px;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        line-height: 25px;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img{
+        height: 150px;
+        width: 150px;
+        justify-content: center;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    }
