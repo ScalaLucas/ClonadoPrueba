@@ -97,7 +97,6 @@
     align-items: center;
     flex-direction: column;
     gap: 20px;
-    
 }
 
 .contact{
@@ -209,6 +208,7 @@ footer a:hover{
 footer a:hover{
     color: cornflowerblue
 }
+
 
 @media screen and (max-width: 576px) {
     *{
