@@ -7,7 +7,9 @@
 
 .tituloheader{
     display: flex;
-    margin-right: 22%;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
 }
 
 .titulo{
@@ -240,6 +242,29 @@ footer a:hover{
         box-sizing: border-box;
        }
 
+
+       .section_galeria{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }    
+    
+    .section_galeria > img{
+        object-fit: cover;
+        width: 250px;
+        height: 200px;
+        border-radius: 10px;
+    }
+    
+    .contenedor{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        background-color: #364552;
+    }
+
     .container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -256,13 +281,19 @@ footer a:hover{
         height: 400px;
     }
 
-    ul{
+    .list{
         display: flex;
-        flex-direction: column;
         line-height: 25px;
         list-style: none;
-        justify-content: center;
-        align-items: center;
+    }
+
+    .list-edit > a{
+        color: white;
+    }
+
+    .list-edit:hover{
+        color: grey;
+        text-decoration: underline;
     }
 
     img{
@@ -273,6 +304,20 @@ footer a:hover{
         margin: 0;
         padding: 0;
     }
+
+    .footerstyle > a{
+        font-size: 12px;
+    }
+
+    .footer > a{
+        font-size: 12px;
+    }
+
+    .footer > p{
+        font-size: 12px;
+    }
+
+
 
     }
 
